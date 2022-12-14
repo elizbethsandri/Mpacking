@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,200;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap');
 
 body {
-    max-width: 3000px;
-    background-repeat: no-repeat;  
+    display: block;
+    margin: 0 auto;
+    max-width: 3000px; 
     background-color: #0101fa;
-    background-image: radial-gradient(circle farthest-corner at 0% 12%,  rgba(37,145,251,0.98) 14%, #0101fa 54% );
-
- 
+    background-image: radial-gradient(circle farthest-corner at 0% 9%,  rgba(37,145,251,0.98) 10%, #0101fa 36% );
+    background-repeat: no-repeat;
 }
 
 :root {
@@ -18,17 +18,17 @@ body {
     --text: rgb(33, 37, 41);
 }
 
-nav a {
-    text-decoration: none; 
-    padding: 0px 50px;
-    display: flex;
-    justify-content: center;
-}
-
 .navbar {
     background-color: rgb(248, 248, 248);
     padding: 0;
     margin: 0;
+}
+
+nav a {
+    text-decoration: none; 
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
 }
 
 .navbar ul {
@@ -44,27 +44,44 @@ nav a {
     font-weight: 400;
     color: var(--primary-color);
 }
+
 .active {
     font-weight: 500;
 }
 
 .home-hero {
     justify-content: start;
+    margin: 140px 0px auto;
     display: flex;
-    color: white;
-    height: 950px;
-    margin: 0 50px auto;
+    color: whitesmoke;
+    height: 940px;
 }
 
-.hero-img img {
-    max-width: 800px;
+.mpacking-hero-logo img {
+    width: 210px;
+    border-radius: 180px;
+    padding: 0px 150px auto;
+    box-shadow: rgba(255, 255, 255, 0.109) 10px 10px 8px;
+    display: flex;
+}
+
+.home-hero p {
+    font-size: 26px;
+    font-family: var(--heading-font-family);
+    font-weight: 400;
+    padding-top: 50px;
+}
+
+.right-side-imgs img {
+    max-width: 600px;
 }
 
 .icon-link {
-    color: var(--primary-color);
-    font-size: 20px;
+    color: whitesmoke;
+    font-size: 30px;
 }
 
 .icon-link:hover {
-    font-size: 22px;
+    font-size: 32px;
+    color: var(--secondary-color);
 }
