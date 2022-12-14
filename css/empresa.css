@@ -3,13 +3,15 @@
 :root {
     --heading-font-family: 'Poppins', sans-serif;
     --default-font-family: 'Montserrat', sans-serif;
-    --primary-color: rgb(13, 110, 253);
+    --primary-color: #0101fa;
+    --secondary-color: #fecb02;
+    --third-color: #0b08d7;
+    --text: rgb(33, 37, 41);
 }
 
 body {
     display: flex;
     justify-content: center;
-    background: linear-gradient(0deg, rgba(110, 157, 252, 0.323) 2%, rgba(255,255,255,1) 80%);
 }
 
 .navbar {
@@ -48,7 +50,7 @@ nav a {
     font-size: 20px;
     font-family: var(--heading-font-family);
     font-weight: 400;
-    color: rgb(95, 91, 229);
+    color: var(--text);
 }
 
 .contact-us p {
@@ -66,13 +68,17 @@ nav a {
     justify-content: start; 
 }
 
+.benefits ul {
+    display: inline;
+}
+
 .visao {
     display: flex;
     justify-content: end;
 }
 
 .body p {
-    color: rgb(118, 116, 220);
+    color: var(--text);
 }
 
 .social {
