@@ -6,6 +6,7 @@
     --primary-color: #0101fa;
     --secondary-color: #fecb02;
     --third-color: #0b08d7;
+    --text: rgb(33, 37, 41);
 }
 
 
@@ -83,9 +84,13 @@ nav a {
     font-size: 30px;
 }
 
-.building img {
+.map img {
     margin: 0 auto;
     max-width: 80%;
     border-radius: 4px;
+}
 
+.map p {
+    font-family: var(--heading-font-family);
+    font-size: 14;
 }
