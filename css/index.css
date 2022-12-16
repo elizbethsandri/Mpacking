@@ -18,37 +18,6 @@ body {
     --text: rgb(33, 37, 41);
 }
 
-.navbar {
-    background-color: rgb(248, 248, 248);
-    padding: 0;
-    margin: 0;
-}
-
-nav a {
-    text-decoration: none; 
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.navbar ul {
-    padding: 0px 150px;
-}
-
-.navbar li {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    font-family: var(--heading-font-family);
-    font-size: 14px;
-    font-weight: 400;
-    color: var(--primary-color);
-}
-
-.active {
-    font-weight: 500;
-}
-
 .home-hero {
     justify-content: start;
     margin: 140px 0px auto;
