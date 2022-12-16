@@ -9,10 +9,6 @@
     --text: rgb(33, 37, 41);
 }
 
-body {
-    display: flex;
-    justify-content: center;
-}
 
 .active {
     font-weight: 500;

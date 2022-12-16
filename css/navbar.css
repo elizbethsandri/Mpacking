@@ -29,6 +29,12 @@
     color: var(--primary-color);
 }
 
+.nav-item a:hover {
+    background-color: #fecc0227;
+    color: var(--primary-color);
+    border-radius: 100px;
+}
+
 .navbar ul {
     margin: 0px;
 }
@@ -46,3 +52,4 @@
 .active a {
     font-weight: 600;
 }
+
