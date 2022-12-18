@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,200;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap');
 
 body {
-    margin-right: 0;
     max-width: 3000px; 
+    height: 890px;
 }
 
 :root {
@@ -15,30 +15,49 @@ body {
 }
 
 .home-hero {
-    background-color: #0101fa;
-    background-image: radial-gradient(circle farthest-corner at 0% 9%,  rgba(37,145,251,0.98) 10%, #0101fa 36% );
+    background-image: url("/images/company3.jpg");
     background-repeat: no-repeat;
-    height: 940px;
-}
-
-.home-hero p {
-    font-size: 26px;
-    color: whitesmoke;
-    font-family: var(--heading-font-family);
-    font-weight: 400;
-    padding-top: 50px;
-}
-
-.right-side-imgs img {
-    max-width: 600px;
+    background-position: right;
+    background-size: 2000px 890px;
 }
 
 .icon-link {
     color: whitesmoke;
     font-size: 30px;
+    text-transform: 0.5 all ease-in-out;
 }
 
 .icon-link:hover {
     font-size: 32px;
     color: var(--secondary-color);
 }
+
+.intro {
+    height: 890px;
+    background-color: #0101fa;
+    background-repeat: no-repeat;
+    background-image: radial-gradient( circle 550px at 0.8% 8.3%, rgba(37,145,251,0.98) 11%, #0101fa 110%);
+    border-right: 25px var(--secondary-color) solid;
+    border-top-right-radius: -1000px;
+    border-bottom-right-radius: 1000px;
+    padding-top: 180px;
+}
+
+.intro-text {
+    max-width: 1150px;
+    font-size: 26px;
+    color: whitesmoke;
+    font-family: var(--heading-font-family);
+    font-weight: 400;
+    
+    
+    padding: 0px 50px 0 80px;
+}
+
+
+
+
+
+  
+  
+ 
