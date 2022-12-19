@@ -49,7 +49,7 @@
 }
 
 .icon-link {
-    font-size: 34px;
+    font-size: 35px;
     color: var(--primary-color);
 }
 
@@ -59,7 +59,7 @@
 
 .map img {
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 85%;
     border-radius: 4px;
 }
 

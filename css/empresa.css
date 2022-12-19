@@ -13,24 +13,21 @@ body {
     --text: rgb(33, 37, 41);
 }
 
-:root {
-    --heading-font-family: 'Poppins', sans-serif;
-    --default-font-family: 'Montserrat', sans-serif;
-    --primary-color: #0101fa;
-    --secondary-color: #fecb02;
-    --third-color: #0b08d7;
-    --text: rgb(33, 37, 41);
+.body {
+    color: var(--text);
+    justify-content: center;
+    margin: 20px 140px;
 }
 
 .logotype{
     display: flex;
     justify-content: center;
     margin: 0 auto;
-    padding: 120px 0 50px;
+    padding: 100px 0 100px ;
     background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgba(255,244,169,1) 30%, rgba(255, 244, 169, 0.65) 68.2%, #fecc02a1 104%);
     border-bottom-width: 10px var(--secondary-color);
-    border-bottom-left-radius: 520px;
-    border-bottom-right-radius: 520px;
+    border-bottom-left-radius: 590px;
+    border-bottom-right-radius: 590px;
 
     border-top-left-radius: 520px;
     border-top-right-radius: 520px;
@@ -38,8 +35,19 @@ body {
     height: 460px;
 }
 
-.body p {
-    color: var(--text);
+.quem-somos, .missao, .valores {
+    font-family: var(--default-font-family);
+    margin: 40px 0;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.quem-somos li {
+    list-style-type:circle;
+}
+
+.missao p{
+    justify-content: start; 
 }
 
 .active {
@@ -47,23 +55,19 @@ body {
 }
 
 .titles {
-    font-size: 20px;
+    font-size: 32px;
     font-family: var(--heading-font-family);
-    font-weight: 400;
+    font-weight: 500;
     color: var(--text);
 }
 
 .contact-us p {
-    font-size: 14px;
-    line-height: 15px;
+    font-size: 22px;
+    line-height: 22px;
     font-family: var(--default-font-family);
 }
 
 
-.missao, .valores {
-    display: flex;
-    justify-content: start; 
-}
 
 .benefits ul {
     display: inline;
@@ -74,18 +78,26 @@ body {
     justify-content: end;
 }
 
+footer p {
+    font-size: 24px;
+    font-family: var(--default-font-family);
+}
 
 .social {
     display: flex;
+    text-align: center;
     justify-content: center;
 }
 
-
 .icon-link {
-    font-size: 24px;
+    font-size: 35px;
     color: var(--primary-color);
 }
 
 .icon-link:hover {
-    font-size: 26px;
+    color: var(--secondary-color);
+}
+
+card {
+    border: 0px;
 }
