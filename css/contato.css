@@ -13,33 +13,31 @@
     margin: 120px 0px 50px;
 }
 
-.contact-us p {
-    font-size: 14px;
-    line-height: 15px;
+.contact-us p, .social-section {
+    font-size: 22px;
+    line-height: 24px;
     font-family: var(--default-font-family);
 }
 
 .titles {
-    font-size: 18px;
+    font-size: 26px;
     font-family: var(--heading-font-family);
 }
 
-.social-section {
-    margin-top: 50px;
-}
 
-.whatsapp {
+.whatsapp a {
     border-radius: 5px;
     border-color: var(--primary-color);
-    background-color: rgb(255, 255, 255);
+    background-color:  rgb(255, 255, 255);
     padding: 5px 10px;
     border-width: 0.01px;
     box-shadow: 1px solid #0d6dfd32;
     transition: 0.5s all ease-in-out;
-    color: rgb(255, 255, 255);
+    color:var(--primary-color);
+    font-size: 24px;
 }
 
-.whatsapp:hover {
+.whatsapp:hover a {
     color: rgb(244, 255, 255);
     background-color: var(--primary-color);
 }
@@ -51,12 +49,12 @@
 }
 
 .icon-link {
-    font-size: 28px;
+    font-size: 34px;
     color: var(--primary-color);
 }
 
 .icon-link:hover {
-    font-size: 30px;
+    color: var(--secondary-color);
 }
 
 .map img {
@@ -67,5 +65,5 @@
 
 .map p {
     font-family: var(--heading-font-family);
-    font-size: 14;
+    font-size: 22px;
 }
