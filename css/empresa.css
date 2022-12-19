@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,200;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap');
 
+body {
+    max-width: 3000px;
+}
+
 :root {
     --heading-font-family: 'Poppins', sans-serif;
     --default-font-family: 'Montserrat', sans-serif;
@@ -9,6 +13,34 @@
     --text: rgb(33, 37, 41);
 }
 
+:root {
+    --heading-font-family: 'Poppins', sans-serif;
+    --default-font-family: 'Montserrat', sans-serif;
+    --primary-color: #0101fa;
+    --secondary-color: #fecb02;
+    --third-color: #0b08d7;
+    --text: rgb(33, 37, 41);
+}
+
+.logotype{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 120px 0 50px;
+    background-image: radial-gradient( circle 400px at 6.8% 8.3%,  rgba(255,244,169,1) 30%, rgba(255, 244, 169, 0.65) 68.2%, #fecc02a1 104%);
+    border-bottom-width: 10px var(--secondary-color);
+    border-bottom-left-radius: 520px;
+    border-bottom-right-radius: 520px;
+
+    border-top-left-radius: 520px;
+    border-top-right-radius: 520px;
+    width: 500px;
+    height: 460px;
+}
+
+.body p {
+    color: var(--text);
+}
 
 .active {
     font-weight: 500;
@@ -27,9 +59,6 @@
     font-family: var(--default-font-family);
 }
 
-.body {
-    max-width: 800px;
-}
 
 .missao, .valores {
     display: flex;
@@ -45,9 +74,6 @@
     justify-content: end;
 }
 
-.body p {
-    color: var(--text);
-}
 
 .social {
     display: flex;

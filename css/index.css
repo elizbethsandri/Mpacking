@@ -14,11 +14,7 @@ body {
     --text: rgb(33, 37, 41);
 }
 
-.home-hero::before {    
-    content: "";
-    position: absolute;
-    top: 85px; right: 0px; bottom: 0px; left: 0px;
-    opacity: 0.73;
+.home-hero {    
     background-image: url("/images/company3.jpg");
     background-repeat: no-repeat;
     background-position: right;
