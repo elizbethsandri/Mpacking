@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "live-server": "^1.1.0",
-    "medium-zoom": "^1.0.8"
+    "@googlemaps/js-api-loader": "^1.15.1",
+    "live-server": "^1.1.0"
   }
 }
