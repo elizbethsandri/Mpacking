@@ -12,7 +12,8 @@
     <title>Mapa de localização Mpacking</title>
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <link rel="stylesheet" type="text/css" href="./style.css" />
-    <script type="module" src="./script.js"></script>
+    <script type="module" src="./index.js"></script>
+    <script src="index.js"></script>
     <script src="https://kit.fontawesome.com/fc855e3d03.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,200;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap" rel="stylesheet">
     <meta name="description" content="A Mpacking é uma empresa jovem disposta a atender as necessidades do mercado de embalagens pet, para diversos segmentos. 
@@ -68,7 +69,7 @@
                     </p>
                     <h4 class="titles">Email</h4>
                     <p>
-                        xxxxxxxxxx@mpacking.com
+                       contato@mpacking.ind.br
                     </p>
                     <h4 class="titles">Telefone</h4>
                     <p>
@@ -106,14 +107,12 @@
                     </div> 
                 </div>
                 </footer>
-        <div>
-            <div class="map text-center">
+        <div class="map text-center">
             <p>Acesso fácil pela rodovia Presidente Dutra
                 próximo ao Aeroporto Internacional de Guarulhos:</p>
-                <img class="zoom d-flex justify-content-center mb-5" src="./images/map.jpg" alt="Mapa de localização Mpacking">
-            </div>
+            
+          <div id="map"></div>
 
-            <div id="map"></div>
             
      
         </div>
@@ -123,8 +122,8 @@
 <script src="script.js"></script>
 <script src="node_modules/medium-zoom/dist/medium-zoom.min.js"></script>
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
-defer>
+<script async
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0BJYO0BkYguoIzj3UtZoHz-GTkqjr5UQ&callback=initMap">
 </script>
            
 </body>

@@ -57,13 +57,17 @@
     color: var(--secondary-color);
 }
 
-.map img {
-    margin: 0 auto;
-    max-width: 85%;
-    border-radius: 4px;
+.map {
+    margin-bottom: 50px;
 }
 
 .map p {
     font-family: var(--heading-font-family);
     font-size: 22px;
+}
+
+#map {
+    display: flex;
+    height: 400px; 
+    width: 100%;
 }
