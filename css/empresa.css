@@ -18,7 +18,7 @@ body {
     margin: 80px 0px;
 }
 
-.logotype{
+.logotype {
     display: flex;
     justify-content: center;
     margin: 0 auto;
@@ -78,14 +78,13 @@ body {
 .visão {
     margin: 100px 30px 100px 0px;
     padding: 100px 0px;
-    background-image: radial-gradient( circle 550px at 110.0% 92.3%, rgba(37,145,251,0.98) 20%, #0101fa 110%);
+    background-image: radial-gradient( circle 600px at 110.0% 92.3%, rgba(37,145,251,0.98) 20%, #0101fa 110%);
     box-shadow: 5px 8px 5px #a7a7a7c7;
     border-top-right-radius: 500px;
     border-bottom-right-radius: 500px;
 }
 
 .missãoevisão p {
-    padding: 0px;
     margin: 0 80px auto;
     font-size: 1.45em;
     font-weight: 500;
@@ -97,24 +96,36 @@ body {
     font-weight: 500;
 }
 
+.valores {
+    margin: 200px 0px 100px;
+}
 
+.valores h2 {
+    font-size: 2.90em;
+    margin-bottom: 100px;
+    font-weight: 500;
 
+}
 
+.illustration img {
+    justify-content: center;
+}
 
-
-
-
-
+#comprometimento {
+    justify-content: center;
+}
 
 
 
 .active {
-    font-weight: 600;
+    font-family: var(--heading-font-family);
+    font-weight: 500;
+    font-size: 1.90em;
 }
 
 footer p {
     font-size: 24px;
-    font-family: var(--default-font-family);
+    font-family: var(--heading-font-family);
 }
 
 .social {
@@ -124,7 +135,7 @@ footer p {
 }
 
 .icon-link {
-    font-size: 35px;
+    font-size: 38px;
     color: var(--primary-color);
 }
 
