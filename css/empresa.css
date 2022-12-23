@@ -63,7 +63,12 @@ body {
 
 .missãoevisão {
     font-family: var(--heading-font-family);
-    border-radius: 100px;
+    margin: 100px 0 100px 25px;
+    padding: 100px 50px;
+    background-image: radial-gradient( circle 550px at 0.4% 8.3%, rgba(37,145,251,0.98) 20%, #0101fa 110%);
+    box-shadow: 5px 8px 5px #a7a7a7c7;
+    border-top-left-radius: 500px;
+    border-bottom-left-radius: 500px;
 }
 
 .missãoevisão h2 {
@@ -75,16 +80,11 @@ body {
     margin: 0 auto;
     font-size: 1.45em;
     font-weight: 500;
-    color: whitesmoke;
+    color: whitesmoke;   
 }
 
 .small-section-left {
-    border: #0101fa 2px solid;
-    border-top-left-radius: 1000px;
-    border-bottom-left-radius: -1000px;
-    border-right: transparent;
-    margin-left: 50px;
-    color: #0101fa;
+    color: white;
 }
 
 .small-section-right {
@@ -93,14 +93,9 @@ body {
     border-bottom-right-radius: 1000px;
     margin-right: 50px;
     border-left: transparent;
-    color: #0101fa;
+    color: white;
 }
 
-.blue-bg1 {
-
-    background-image: radial-gradient( circle 550px at 0.4% 6.3%, rgba(37,145,251,0.98) 11%, #0101fa 110%);
-    border-right: 25px rgba(37, 144, 251, 0.456) solid;
-}
 
 
 .visão p {
@@ -129,10 +124,6 @@ body {
 .active {
     font-weight: 600;
 }
-
-
-
-
 
 footer p {
     font-size: 24px;
