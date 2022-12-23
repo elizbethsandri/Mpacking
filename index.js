@@ -1,18 +1,18 @@
-
-const Mpacking = { lat: -23.420751674581638, lng: -46.39421029340493 };
- 
-
 let map;
 
+const Mpacking = { lat: -23.420751674581638, lng: -46.39421029340493 };
+
 function initMap() {
-  map = new google.maps.Map(document.getElementById("map"), {
+  const map = new google.maps.Map(document.getElementById("map"), {
   zoom: 11,
   center: Mpacking,
 });
 
-  marker = new google.maps.Marker({
+  const marker = new google.maps.Marker({
     map: map,
     draggable: true,
+    label: "Mpacking",
+    title: "Mpacking",
     animation: google.maps.Animation.DROP,
     position: Mpacking,
   });
@@ -29,3 +29,6 @@ function toggleBounce() {
 
 
 window.initMap = initMap;
+
+
+
