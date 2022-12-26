@@ -41,6 +41,13 @@ body {
     box-shadow: 5px 8px 5px #a7a7a7c7;
 }
 
+.titles {
+    font-family: var(--heading-font-family);
+    font-size: 1.90em;
+    font-weight: 500;
+    color: white;
+}
+
 .blue-bg h2, .blue-bg p {
     background-color: #0101fafb;
     border: #0101fa 2px solid;
@@ -61,9 +68,12 @@ body {
     color: rgb(85, 85, 85);
 }
 
-.missãoevisão {
+.missãoevisão p {
     font-family: var(--heading-font-family);
     color: whitesmoke;   
+    margin: 0 80px auto;
+    font-size: 1.45em;
+    font-weight: 500;
 }
 
 .missão {
@@ -84,18 +94,6 @@ body {
     border-bottom-right-radius: 500px;
 }
 
-.missãoevisão p {
-    margin: 0 80px auto;
-    font-size: 1.45em;
-    font-weight: 500;
-}
-
-.titles {
-    font-family: var(--heading-font-family);
-    font-size: 1.90em;
-    font-weight: 500;
-}
-
 .valores {
     margin: 200px 0px 100px;
 }
@@ -104,7 +102,6 @@ body {
     font-size: 2.90em;
     margin-bottom: 100px;
     font-weight: 500;
-
 }
 
 .illustration img {
@@ -115,12 +112,18 @@ body {
     justify-content: center;
 }
 
-
+.valor p {
+    margin: 0 auto;
+    font-family: var(--default-font-family);
+    font-size: 1.40em;
+    color: rgb(85, 85, 85);
+}
 
 .active {
     font-family: var(--heading-font-family);
     font-weight: 500;
     font-size: 1.90em;
+    line-height: 1.92em;
 }
 
 footer p {
