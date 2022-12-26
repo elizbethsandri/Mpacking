@@ -2,7 +2,8 @@
 
 body {
     max-width: 3000px; 
-    height: 890px;
+    height: fit-content;
+    margin: 0 auto;
 }
 
 :root {
@@ -18,12 +19,12 @@ body {
     background-image: url("/images/company3.jpg");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 1600px 890px;
+    background-size: 1600px 975px;
 }
 
 .intro {
     width: 1800px;
-    height: 890px;
+    height: 975px;
     background-color: #0101fa;
     background-repeat: no-repeat;
     background-image: radial-gradient( circle 550px at 0.4% 6.3%, rgba(37,145,251,0.98) 11%, #0101fa 110%);
@@ -32,27 +33,41 @@ body {
     border-bottom-right-radius: 2000px;
     padding-top: 180px;
     position: relative;
-    left: 0 auto;
 }
 
 .intro-text {
     max-width: 1200px;
-    font-size: 26px;
+    font-size: 1.45em;
     color: whitesmoke;
     font-family: var(--heading-font-family);
     font-weight: 400;    
-    padding: 0px 50px 0 80px;
+    padding: 0px 50px 90px 80px;
+}
+
+.hero-partition {
+    background-color: var(--secondary-color);
+    border-right: #ffea9692 8px solid;
+    border-top: #ffea9692 8px solid;
+    height: 219px;
+    width: 480px;
+    padding: 50px 0 0;
+    position: absolute;
+    top: 755px;
+    border-top-right-radius: 2000px;
+    border-bottom-right-radius: -900px;
+}
+
+.hero-partition p {
+    font-family: var(--heading-font-family);
+    font-weight: 500;
 }
 
 .icon-link {
     color: whitesmoke;
-    font-size: 30px;
     text-transform: 0.5 all ease-in-out;
-    position: relative;
 }
 
 .icon-link:hover {
-    font-size: 32px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
 }
 
