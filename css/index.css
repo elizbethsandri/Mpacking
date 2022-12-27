@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,400;0,700;1,200;1,300;1,400&family=Source+Code+Pro:wght@400;500&display=swap');
 
 body {
-    max-width: 3000px; 
-    height: fit-content;
     margin: 0 auto;
+    max-width: fit-content;
+    background: linear-gradient(90deg, white 91.1%, #fecb02 91.1%);
+    background-repeat: no-repeat; 
 }
 
 :root {
@@ -15,59 +16,75 @@ body {
     --text: rgb(33, 37, 41);
 }
 
-.home-hero {    
-    background-image: url("/images/company3.jpg");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 1600px 975px;
+.home-page {
+    padding-top: 100px;
 }
 
-.intro {
-    width: 1800px;
-    height: 975px;
-    background-color: #0101fa;
-    background-repeat: no-repeat;
-    background-image: radial-gradient( circle 550px at 0.4% 6.3%, rgba(37,145,251,0.98) 11%, #0101fa 110%);
-    border-right: 25px rgba(37, 144, 251, 0.456) solid;
-    border-top-right-radius: -0;
-    border-bottom-right-radius: 2000px;
-    padding-top: 180px;
-    position: relative;
+.inside-wrapper section {
+    margin: 146px 40px;
+    background-color: rgb(255, 255, 255);
+    border: #fecb02 6px solid;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
 }
 
-.intro-text {
-    max-width: 1200px;
-    font-size: 1.45em;
-    color: whitesmoke;
-    font-family: var(--heading-font-family);
-    font-weight: 400;    
-    padding: 0px 50px 90px 80px;
+.fabrica {
+    margin: 0px;
+    width: 800px;
+    padding: 0;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
 }
 
-.hero-partition {
-    background-color: var(--secondary-color);
-    border-right: #ffea9692 8px solid;
-    border-top: #ffea9692 8px solid;
-    height: 219px;
-    width: 480px;
-    padding: 50px 0 0;
-    position: absolute;
-    top: 755px;
-    border-top-right-radius: 2000px;
-    border-bottom-right-radius: -900px;
-}
-
-.hero-partition p {
+.intro-text p {
+    color: #0101fa;
+    font-size: 1.90em;
     font-family: var(--heading-font-family);
     font-weight: 500;
+    margin: 80px 0px 0px 80px;
+}
+
+.options {
+    margin: 100px 80px;
+    padding: 0 auto;
+}
+
+.options a {
+    text-decoration: none; 
+    color: #0101fa;
+    font-size: 1.05em;
+    font-family: var(--heading-font-family); 
+    background-color: #0b08d70d;
+    border-radius: 18px; 
+    margin: 0px 45px;
+    padding: 15px 6px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social section {
+    margin: 0;
+    display: grid;
+    border: none;
+    padding-top: 20px;
+    align-content: start;
+}
+
+.social i {
+    margin: 10px 0px;
+    padding: 16px 16px;
+    background-color: #0b08d70d;
+    border-radius: 50px;
+    text-transform: 0.7s all ease-in-out;
 }
 
 .icon-link {
-    color: whitesmoke;
-    text-transform: 0.5 all ease-in-out;
-}
-
-.icon-link:hover {
+    font-size: 1.90em;
     color: var(--primary-color);
 }
 
+.social i:hover, .options a:hover {
+    background-color: #fecc0227;
+    color: var(--primary-color);
+}
