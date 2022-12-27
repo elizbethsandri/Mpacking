@@ -39,7 +39,7 @@ body {
 
 .intro-text p {
     color: #0101fa;
-    font-size: 1.90em;
+    font-size: 1.80em;
     font-family: var(--heading-font-family);
     font-weight: 500;
     margin: 80px 0px 0px 80px;
@@ -53,10 +53,10 @@ body {
 .options a {
     text-decoration: none; 
     color: #0101fa;
-    font-size: 1.05em;
+    font-size: 1.15em;
     font-family: var(--heading-font-family); 
     background-color: #0b08d70d;
-    border-radius: 18px; 
+    border-radius: 25px; 
     margin: 0px 45px;
     padding: 15px 6px;
     display: flex;
