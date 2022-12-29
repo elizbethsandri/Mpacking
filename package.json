@@ -1,7 +1,8 @@
 {
   "dependencies": {
     "@googlemaps/js-api-loader": "^1.15.1",
-    "bootstrap": "^5.2.3",
+    "@popperjs/core": "^2.11.6",
+    "bootstrap": "^5.3.0-alpha1",
     "bootstrap-icons": "^1.10.3",
     "icons": "^1.0.0",
     "live-server": "^1.1.0"

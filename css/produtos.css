@@ -9,3 +9,15 @@
     --third-color: #0b08d7;
     --text: rgb(33, 37, 41);
 }
+
+.navbar {
+    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    margin: 100px 0px 20px;
+}
+
+@media(min-width: 992px) {
+    
+}
