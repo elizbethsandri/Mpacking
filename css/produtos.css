@@ -10,9 +10,44 @@
     --text: rgb(33, 37, 41);
 }
 
-.navbar {
-    box-shadow: 0 3px 9px 3px rgba(0, 0, 0, 0.1);
+.carousel-inner {
+    margin: 100px 40px 40px auto;
+    width: 600px;
 }
+
+.font-style {
+    color: var(--text);
+    font-family: var(--default-font-family);
+}
+
+.options-style button {
+    border-radius: 40px;
+    border: 1px solid var(--text);
+    padding: 10px 20px;
+    text-transform: 0.7s all ease-in-out;
+}
+
+.options-style button:hover {
+    background-color: #fecc0227;
+    border: 1px solid transparent;
+    border: 1px solid var(--text);
+}
+
+.options-style a:hover {
+    background-color: #fecc0227;
+}
+
+.collection-list p {
+    line-height: 10px;
+    font-size: 16px;
+    margin: 15px ;
+}
+
+.collection-img img {
+    width: 250px;
+    border-radius: 5px;
+}
+
 
 .search-bar {
     margin: 100px 0px 20px;
