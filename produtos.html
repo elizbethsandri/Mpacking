@@ -71,13 +71,18 @@
     </div>
 
     <div class="row">
-        <div class="options-style d-flex flex-wrap justify-content-center font-style">
-            <button type="button" class="btn-style btn m-2">Todos</button>
+        <div class="options-style d-flex flex-wrap justify-content-center 
+        filter-button-group font-style">
+            <button type="button" class="btn-style btn m-2 active-filter-btn"
+            data-filter="*">Todos</button>
+            <button type="button" class="btn-style btn m-2 active-filter-btn"
+            data-filter=".novos">Novos</button>
             <div class="dropdown">
-                <button class="dropdown-toggle btn m-2" id="test" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <button class="dropdown-toggle btn m-2" data-filter=".capacidade" 
+                id="test" type="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Capacidade
                 </button>
-                <ul class="dropdown-menu">
+                <ul class="dropdown-menu text-center">
                   <li><a class="dropdown-item" href="#">Abaixo de 100ml</a></li>
                   <li><a class="dropdown-item" href="#">100ml-200ml</a></li>
                   <li><a class="dropdown-item" href="#">200ml-300ml</a></li>
@@ -85,10 +90,11 @@
                 </ul>
               </div>
               <div class="dropdown">
-                  <button class="dropdown-toggle btn m-2" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <button class="dropdown-toggle btn m-2" data-filter=".cor" 
+                  type="button" data-bs-toggle="dropdown" aria-expanded="false">
                     Cor
                   </button>
-                  <ul class="dropdown-menu">
+                  <ul class="dropdown-menu text-center">
                     <li><a class="dropdown-item" href="#">Transparente</a></li>
                     <li><a class="dropdown-item" href="#">Azul/ Verde</a></li>
                     <li><a class="dropdown-item" href="#">Outros</a></li>
@@ -110,7 +116,7 @@
                         <p class="">Referência <span class="fw-bold" id="código-ref">#5555555</span></p>                            
                     </div>
                 </div>
-                <div class="product col-md-6 col-lg-4 col-xl-3 p-2">
+                <div class="product col-md-6 col-lg-4 col-xl-3 p-2 capacidade">
                     <div class="collection-img mb-4">
                         <img src="/images/bottles.jpg" alt="Garrafas">
                     </div>
@@ -120,7 +126,7 @@
                         <p class="">Referência <span class="fw-bold" id="código-ref">#5555555</span></p>                            
                     </div>
                 </div>
-                <div class="product col-md-6 col-lg-4 col-xl-3 p-2">
+                <div class="product col-md-6 col-lg-4 col-xl-3 p-2 cor novos">
                     <div class="collection-img mb-4">
                         <img src="/images/bottles.jpg" alt="Garrafas">
                     </div>
@@ -130,7 +136,7 @@
                         <p class="">Referência <span class="fw-bold" id="código-ref">#5555555</span></p>                            
                     </div>
                 </div>
-                <div class="product col-md-6 col-lg-4 col-xl-3 p-2">
+                <div class="product col-md-6 col-lg-4 col-xl-3 p-2 novos">
                     <div class="collection-img mb-4">
                         <img src="/images/bottles.jpg" alt="Garrafas">
                     </div>
@@ -170,7 +176,8 @@
     <script src="https://kit.fontawesome.com/fc855e3d03.js" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-
     <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script src="/path/to/isotope.pkgd.min.js"></script>
 </body>
 </html>

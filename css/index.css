@@ -88,3 +88,19 @@ body {
     background-color: #fecc0227;
     color: var(--primary-color);
 }
+
+@media (max-width: 992px) {
+
+    .inside-wrapper {
+        width: 800px;
+    }
+
+
+    .fabrica {
+        width: 600px;
+    }
+
+    .intro-text p {
+        font-size: 1.15em;
+    }
+}
