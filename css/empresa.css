@@ -139,7 +139,7 @@ footer p {
     color: var(--secondary-color);
 }
 
-@media (max-width: 1000.98px) {
+@media (max-width: 1190.00px) {
 
     .logotype  {
         width: 295px;
@@ -169,46 +169,35 @@ footer p {
     }
 
     .missão h2, .visão h2 {
-        font-family: var(--default-font-family);
+        letter-spacing: 4px;
         position: relative;
-
     }
 
     .missão h2 {
         rotate: 270deg;
-        letter-spacing: 4px;
-        top: 65px;
+        top: 40%;
     }
-    
+
     .visão h2 {
         rotate: 90deg;
-        letter-spacing: 4px;
-        font-family: var(--default-font-family);
-        position: relative;
-        right: 40px;
+        right: 55px;
+
     }
 
     .missão, .visão {
         background-image: radial-gradient( circle 600px at 110.0% 92.3%, rgba(37,145,251,0.98) 20%, #0101fa 110%);
         border-radius: 0%;
         width: 100%;
-        padding: 0;
-        margin: 20px 10px;
+        padding: 0px;
+        margin: 20px 0px;
     }
-
-    .visão {
-        MARGIN: 0;
-    }
-
+    
     .missão p, .visão p {
-        width: fit-content;
+        width: 100%;
         font-size: 1.10em;
         padding: 0px 5px;
         text-align: center; 
         margin: 0px 0px auto;       
     }
-
-
-
 
 }
