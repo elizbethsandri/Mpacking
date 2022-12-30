@@ -147,29 +147,59 @@ footer p {
     }
 
     .logotype  {
-        width: 315px;
-        height: 175px;
+        width: 295px;
+        height: 155px;
         padding: 20px 10px 0px 10px;
     }
 
     .highlights {
         margin: 30px 60px 120px; 
+        display: flex;
+        justify-content: center;
     }
 
     .highlights h2 {
         margin: 12px 30px;
-        padding: 12px 10px ;
+        padding: 12px 30px ;
     }
     
     .titles {
         font-size: 1.25em;
     }
     
-    .sobre p, .missãoevisão p {
+    .missão h2 {
+        position: relative;
+        bottom: 100px;
+        right: 200px;
+        padding: 0px auto;
+        background-color: #fecb02;
+    }
+
+    .missão {
+        background-image: radial-gradient( circle 600px at 110.0% 92.3%, rgba(37,145,251,0.98) 20%, #0101fa 110%);
+        border-radius: 0%;
+        width: 100%;
+
+    }
+
+    .missãoevisão p {
+        padding: 0px auto;
+        margin: 0px;justify-content: center;
+    }
+
+    .missão p {
+        width: fit-content;
+        font-size: 1.10em;
+        padding: auto;
+        text-align: center;
+    }
+
+    .sobre p {
         text-align: center;
         padding: 35px;
         font-size: 1.10em;
     }
+
 
 
 
