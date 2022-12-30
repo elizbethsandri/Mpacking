@@ -9,21 +9,20 @@
     --text: rgb(33, 37, 41);
 }
 
-.contact-us {
-    margin: 120px 0px 50px;
-}
-
-.contact-us p, .social-section {
+body p {
     font-size: 22px;
     line-height: 24px;
     font-family: var(--default-font-family);
+}
+
+.contact-us {
+    margin: 120px 0px 50px;
 }
 
 .titles {
     font-size: 26px;
     font-family: var(--heading-font-family);
 }
-
 
 .whatsapp a {
     border-radius: 5px;
@@ -35,6 +34,7 @@
     transition: 0.5s all ease-in-out;
     color:var(--primary-color);
     font-size: 24px;
+    font-family: var(--default-font-family);
 }
 
 .whatsapp:hover a {
@@ -44,7 +44,6 @@
 
 .social {
     display: flex;
-    text-align: center;
     justify-content: center;
 }
 
@@ -62,7 +61,7 @@
 }
 
 .map p {
-    font-family: var(--heading-font-family);
+    font-family: var(--default-font-family);
     font-size: 22px;
 }
 
@@ -70,4 +69,22 @@
     display: flex;
     height: 400px; 
     width: 100%;
+}
+
+@media (max-width: 1200px) {
+
+    body p, .whatsapp a, .map p {
+        font-family: var(--default-font-family);
+        font-size: 1.15em;
+    }
+
+    .titles {
+        font-size: 1.45em;
+    }
+   
+    .map {
+        margin: 30px 0px;
+        font-family: var(--default-font-family);
+    }
+
 }
