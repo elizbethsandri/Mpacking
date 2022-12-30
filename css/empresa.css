@@ -141,11 +141,6 @@ footer p {
 
 @media (max-width: 991.98px) {
 
-    body {
-        display: flex;
-        justify-content: center;
-    }
-
     .logotype  {
         width: 295px;
         height: 155px;
@@ -167,37 +162,43 @@ footer p {
         font-size: 1.25em;
     }
     
-    .missão h2 {
-        position: relative;
-        bottom: 100px;
-        right: 200px;
-        padding: 0px auto;
-        background-color: #fecb02;
-    }
-
-    .missão {
-        background-image: radial-gradient( circle 600px at 110.0% 92.3%, rgba(37,145,251,0.98) 20%, #0101fa 110%);
-        border-radius: 0%;
-        width: 100%;
-
-    }
-
-    .missãoevisão p {
-        padding: 0px auto;
-        margin: 0px;justify-content: center;
-    }
-
-    .missão p {
-        width: fit-content;
-        font-size: 1.10em;
-        padding: auto;
-        text-align: center;
-    }
-
     .sobre p {
         text-align: center;
         padding: 35px;
         font-size: 1.10em;
+    }
+
+    .missão h2 {
+        rotate: 270deg;
+        letter-spacing: 4px;
+        font-family: var(--default-font-family);
+        position: relative;
+        top: 65px;
+    }
+    
+    .visão h2 {
+        rotate: 90deg;
+        letter-spacing: 4px;
+        font-family: var(--default-font-family);
+        position: relative;
+        right: 40px;
+    }
+
+    .missão, .visão {
+        background-image: radial-gradient( circle 600px at 110.0% 92.3%, rgba(37,145,251,0.98) 20%, #0101fa 110%);
+        border-radius: 0%;
+        width: 100%;
+        padding: 0;
+        margin: 20px 10px;
+    }
+
+
+    .missão p, .visão p {
+        width: fit-content;
+        font-size: 1.10em;
+        padding: 0px 5px;
+        text-align: center; 
+        margin: 0px 0px auto;       
     }
 
 
