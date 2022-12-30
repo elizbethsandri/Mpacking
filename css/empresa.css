@@ -139,7 +139,7 @@ footer p {
     color: var(--secondary-color);
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 1000.98px) {
 
     .logotype  {
         width: 295px;
@@ -168,11 +168,15 @@ footer p {
         font-size: 1.10em;
     }
 
+    .missão h2, .visão h2 {
+        font-family: var(--default-font-family);
+        position: relative;
+
+    }
+
     .missão h2 {
         rotate: 270deg;
         letter-spacing: 4px;
-        font-family: var(--default-font-family);
-        position: relative;
         top: 65px;
     }
     
@@ -192,6 +196,9 @@ footer p {
         margin: 20px 10px;
     }
 
+    .visão {
+        MARGIN: 0;
+    }
 
     .missão p, .visão p {
         width: fit-content;
