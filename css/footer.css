@@ -31,20 +31,27 @@
 .footer-bg {
     background-color: rgb(252, 252, 252);
     box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.1);
-    padding: 0 100px;
 
 }
 
 footer img {
-    width: 150px;
+    width: 160px;
+    height: 70px;
+    padding-bottom: 15px;
 }
 
 .footer-title {
     font-family: var(--heading-font-family);
-    font-size: 18px;
+    font-size: 17px;
 }
 
 footer li {
     list-style: none;
     font-family: var(--default-font-family);
+}
+
+@media (min-width: 1100px) {
+    .info-list {
+        padding-top: 30px;
+    }
 }
