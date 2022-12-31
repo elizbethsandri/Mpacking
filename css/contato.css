@@ -42,20 +42,6 @@ body p {
     background-color: var(--primary-color);
 }
 
-.social {
-    display: flex;
-    justify-content: center;
-}
-
-.icon-link {
-    font-size: 35px;
-    color: var(--primary-color);
-}
-
-.icon-link:hover {
-    color: var(--secondary-color);
-}
-
 .map {
     margin-bottom: 100px;
 }
