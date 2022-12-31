@@ -37,6 +37,10 @@ body p {
     font-family: var(--default-font-family);
 }
 
+.whatsapp i {
+    color:var(--primary-color);
+}
+
 .whatsapp:hover a {
     color: rgb(244, 255, 255);
     background-color: var(--primary-color);
