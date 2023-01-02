@@ -70,108 +70,101 @@
         </div>
     </div>
 
-    <div class="row">
-        <div class="options-style d-flex flex-wrap justify-content-center 
-        filter-button-group font-style">
-            <button type="button" class="btn-style btn m-2 active-filter-btn"
-            data-filter="*">Todos</button>
-            <button type="button" class="btn-style btn m-2 active-filter-btn"
-            data-filter=".novos">Novos</button>
-            <div class="dropdown">
-                <button class="dropdown-toggle btn m-2" data-filter=".capacidade" 
-                id="test" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Capacidade
-                </button>
-                <ul class="dropdown-menu text-center">
-                  <li><a class="dropdown-item" href="#">Abaixo de 100ml</a></li>
-                  <li><a class="dropdown-item" href="#">100ml-200ml</a></li>
-                  <li><a class="dropdown-item" href="#">200ml-300ml</a></li>
-                  <li><a class="dropdown-item" href="#">300ml-500ml</a></li>
-                </ul>
-              </div>
-              <div class="dropdown">
-                  <button class="dropdown-toggle btn m-2" data-filter=".cor" 
-                  type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Cor
-                  </button>
-                  <ul class="dropdown-menu text-center">
-                    <li><a class="dropdown-item" href="#">Transparente</a></li>
-                    <li><a class="dropdown-item" href="#">Azul/ Verde</a></li>
-                    <li><a class="dropdown-item" href="#">Outros</a></li>
-                  </ul>
+    <div class="wrapper">
+        <div class="category-filter">
+        <div class="container">
+            <h3 class="titles">
+                Selecione por capacidade
+            </h3>
+            <div class="row d-flex flex-wrap justify-content-center font-style">
+                <div class="col-lg-2 col-md-4 col-sm-12 text-center">
+                <div class="filter-btns options-style">
+                    <button type = "button" class = "filter-btn btn-style btn" id = "all">Todos</button>
+                    <button type = "button" class = "filter-btn btn-style btn" id = "100ml">100ml</button>
+                    <button type = "button" class = "filter-btn btn-style btn" id = "120ml">120ml</button>
+                    <button type = "button" class = "filter-btn btn-style btn" id = "150ml">150ml</button>
                 </div>
-        </div>
-    </div>
+                </div>
 
-    <div class="collection-list mt-5">
-        <div class="container text-center">
-            <div class="row gx-0 gy-3">
-                <div class="product col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="collection-img mb-4">
-                        <img src="/images/bottles.jpg" alt="Garrafas">
-                    </div>
-                    <div class="description mt-3 font-style">
-                        <p class="">Garrafa xxxx xxxxx xx</p>
-                        <p class="capacidade">450ml</p> 
-                        <p class="">Referência <span class="fw-bold" id="código-ref">#5555555</span></p>                            
-                    </div>
-                </div>
-                <div class="product col-md-6 col-lg-4 col-xl-3 p-2 capacidade">
-                    <div class="collection-img mb-4">
-                        <img src="/images/bottles.jpg" alt="Garrafas">
-                    </div>
-                    <div class="description mt-3 font-style">
-                        <p class="">Garrafa xxxx xxxxx xx</p>
-                        <p class="capacidade">450ml</p> 
-                        <p class="">Referência <span class="fw-bold" id="código-ref">#5555555</span></p>                            
-                    </div>
-                </div>
-                <div class="product col-md-6 col-lg-4 col-xl-3 p-2 cor novos">
-                    <div class="collection-img mb-4">
-                        <img src="/images/bottles.jpg" alt="Garrafas">
-                    </div>
-                    <div class="description mt-3 font-style">
-                        <p class="">Garrafa xxxx xxxxx xx</p>
-                        <p class="capacidade">450ml</p> 
-                        <p class="">Referência <span class="fw-bold" id="código-ref">#5555555</span></p>                            
-                    </div>
-                </div>
-                <div class="product col-md-6 col-lg-4 col-xl-3 p-2 novos">
-                    <div class="collection-img mb-4">
-                        <img src="/images/bottles.jpg" alt="Garrafas">
-                    </div>
-                    <div class="description mt-3 font-style">
-                        <p class="">Garrafa xxxx xxxxx xx</p>
-                        <p class="capacidade">450ml</p> 
-                        <p class="">Referência <span class="fw-bold" id="código-ref">#5555555</span></p>                            
-                    </div>
-                </div>
-                <div class="product col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="collection-img mb-4">
-                        <img src="/images/bottles.jpg" alt="Garrafas">
-                    </div>
-                    <div class="description mt-3 font-style">
-                        <p class="">Garrafa xxxx xxxxx xx</p>
-                        <p class="capacidade">450ml</p> 
-                        <p class="">Referência <span class="fw-bold" id="código-ref">#5555555</span></p>                            
-                    </div>
-                </div>
-                <div class="product col-md-6 col-lg-4 col-xl-3 p-2">
-                    <div class="collection-img mb-4">
-                        <img src="/images/bottles.jpg" alt="Garrafas">
-                    </div>
-                    <div class="description mt-3 font-style">
-                        <p class="">Garrafa xxxx xxxxx xx</p>
-                        <p class="capacidade">450ml</p> 
-                        <p class="">Referência <span class="fw-bold" id="código-ref">#5555555</span></p>                            
+                <div class="col-lg-10 col-md-8 col-sm-12">
+                    <div class="filter-items d-flex flex-wrap align-items-center justify-content-evenly p-2">
+           
+                        <div class="filter-item mx-3 my-4 all 100ml">
+                            <div class="item-img mb-4">
+                                <img src="/images/bottles.jpg" alt="Garrafas">
+                            </div>
+                            <div class="item-info description mt-3 font-style">
+                                <p class="">Garrafa xxxx xxxxx xx</p>
+                                <div>
+                                    <span class="capacidade">100ml</span>
+                                    <p class="">Referência<span class="selected" id="código-ref"> #5555555</span></p>
+                                </div>
+                                <a href="#" class="add-btn">Adicionar</a>
+                            </div>
+                        </div>            
+                        <div class="filter-item mx-3 my-4 all 100ml">
+                            <div class="item-img mb-4">
+                                <img src="/images/bottles.jpg" alt="Garrafas">
+                            </div>
+                            <div class="item-info description mt-3 font-style">
+                                <p class="">Garrafa xxxx xxxxx xx</p>
+                                <div>
+                                    <span class="capacidade">100ml</span>
+                                    <p class="">Referência<span class="selected" id="código-ref"> #5555555</span></p>
+                                </div>
+                                <a href="#" class="add-btn">Adicionar</a>
+                            </div>
+                        </div>            
+                        <div class="filter-item mx-3 my-4 all 120ml">
+                            <div class="item-img mb-4">
+                                <img src="/images/bottles.jpg" alt="Garrafas">
+                            </div>
+                            <div class="item-info description mt-3 font-style">
+                                <p class="">Garrafa xxxx xxxxx xx</p>
+                                <div>
+                                    <span class="capacidade">120ml</span>
+                                    <p class="">Referência<span class="selected" id="código-ref"> #5555555</span></p>
+                                </div>
+                                <a href="#" class="add-btn">Adicionar</a>
+                            </div>
+                        </div>            
+                        <div class="filter-item mx-3 my-4 all 150ml">
+                            <div class="item-img mb-4">
+                                <img src="/images/bottles.jpg" alt="Garrafas">
+                            </div>
+                            <div class="item-info description mt-3 font-style">
+                                <p class="">Garrafa xxxx xxxxx xx</p>
+                                <div>
+                                    <span class="capacidade">150ml</span>
+                                    <p class="">Referência<span class="selected" id="código-ref"> #5555555</span></p>
+                                </div>
+                                <a href="#" class="add-btn">Adicionar</a>
+                            </div>
+                        </div>            
+                        <div class="filter-item mx-3 my-4 all 150ml">
+                            <div class="item-img mb-4">
+                                <img src="/images/bottles.jpg" alt="Garrafas">
+                            </div>
+                            <div class="item-info description mt-3 font-style">
+                                <p class="">Garrafa xxxx xxxxx xx</p>
+                                <div>
+                                    <span class="capacidade">150ml</span>
+                                    <p class="">Referência<span class="selected" id="código-ref"> #5555555</span></p>
+                                </div>
+                                <a href="#" class="add-btn">Adicionar</a>
+                            </div>
+                        </div>                   
                     </div>
                 </div>
             </div>
+        
+        
+        </div>
         </div>
     </div>
 
     <footer class="mt-5"> 
-        <div class="social-title">    
+        <div class="footer-title">    
             <p class="text-center">
                 Nos acompanhe em nossas mídias sociais!
             </p>
@@ -196,7 +189,7 @@
         </div>
         <div class="footer-bg mt-5 mx-0">
             <div class="container">
-            <div class="d-flex justify-content-end text-start">
+            <div class="d-flex justify-content-center text-start">
                 <div class="row py-5 gx-5">
                     <div class="col-md-12 col-lg-4 pt-0">
                         <img src="/images/png-logo.png" alt="site icon">
@@ -247,13 +240,8 @@
         </div>
     </footer>
      
-    <script src="/js/product-list.js"></script>
-    <script src="/js/jquery-3.6.3.js"></script>
+    <script src="/js/script.js"></script>
     <script src="https://kit.fontawesome.com/fc855e3d03.js" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
-    <script src="https://unpkg.com/@popperjs/core@2"></script>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-    <script src="/path/to/isotope.pkgd.min.js"></script>
 </body>
 </html>

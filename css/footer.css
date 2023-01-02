@@ -31,7 +31,6 @@
 .footer-bg {
     background-color: rgb(252, 252, 252);
     box-shadow: 0 3px 8px 3px rgba(0, 0, 0, 0.1);
-
 }
 
 footer img {
@@ -41,8 +40,8 @@ footer img {
 }
 
 .footer-title {
-    font-family: var(--heading-font-family);
-    font-size: 17px;
+    font-family: var(--default-font-family);
+    font-size: 20px;
 }
 
 footer li {
