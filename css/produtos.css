@@ -6,24 +6,34 @@
     --default-font-family: 'Montserrat', sans-serif;
     --primary-color: #0101fa;
     --secondary-color: #fecb02;
-    --third-color: #0b08d7;
     --text: rgb(33, 37, 41);
 }
 
-.carousel-inner {
-    margin: 100px 40px 40px auto;
-    width: 600px;
+* {
+    padding: 0;
+    margin: 0;
 }
 
 .font-style {
     color: var(--text);
     font-family: var(--default-font-family);
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .selected {
     font-weight: 500;
 }
+
+.carousel-inner {
+    margin: 150px 0 auto;
+    width: 600px;
+}
+
+.wrapper {
+    width: 100%;
+    overflow-x: hidden;
+}
+
 
 .options-style button {
     padding: 10px 20px;
@@ -36,16 +46,15 @@
     border: 1px solid transparent;
     cursor: pointer;
     font-weight: 500;
+    text-decoration: underline;
 }
 
-.collection-list p {
-    line-height: 10px;
-    font-size: 16px;
-    margin: 15px ;
+.filter-item {
+    line-height: 19px;
 }
 
 .item-img img {
-    width: 250px;
+    width: 260px;
     border-radius: 5px;
 }
 
@@ -73,6 +82,15 @@
 }
 
 
+@media (max-width: 768px) {
+    .filter-item {
+        display: block;
+        justify-content: center;
+        width: 320px;
+        padding-left: 10%;
+    }
+}
+
 @media(min-width: 992px) {
     
 }
@@ -82,9 +100,7 @@
 
 * { box-sizing: border-box; }
 
-body {
-  font-family: sans-serif;
-}
+
 
 .filter-item {
     width: 100%;
@@ -94,6 +110,10 @@ body {
 @media screen and (min-width: 768px) {
     .filter-item {
         width: calc(50% - 30px);
+    }
+    
+    .wrapper {
+        align-self: center ;
     }
 }
 
